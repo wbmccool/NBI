@@ -1,0 +1,19 @@
+                                                                                                                                  .
+
+Horizontal graphic: 
+style="max-width:XXXpx;" width="100%"
+ 
+The actual width of your image, or the size you want it to be if you're shrinking it, goes in the "max-width:" with the "px" after it. This should be on EVERY image -- even if it's a small width graphic, without the max-width it could pixelate everything. 
+ 
+So here's where you put this styling in your typical line of code for a graphic. 
+ 
+<img alt="John Plumb for Congress" src="https://imagelink.png" style="max-width: 626px;" width="100%" /></a>
+ 
+I typically put the code after the image source, but it's important that it is within the <img /> tag. 
+ 
+Vertical graphic: 
+The same thing, the only difference is you'll want to make the width percentage around 45 or so. Like this: 
+ 
+<img alt="title for image" src="https://imagelink.png" style="max-width: 200px;" width="45%" /></a>
+ 
+It is VERY important that on any graphic you strip out the height="XXX" from the image styling. If this is left in, it will make your graphic look bad
