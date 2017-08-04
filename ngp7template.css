@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+.header a.logo{
+    max-width: 100%;
+    width: 250px;   
+}
+
+
+body > div > div.at-banner > figure > a > img {
+	rgba(255, 255, 255, 0.53);}
+body > div > div.at-banner > figure{
+margin: 0px 20px 20px;
+text-align:center;}
+div.at-row>[class^="at-"]{
+ flex:auto;
+ width:100%;
+}
+
+@media(min-width:768px){
+.header a.logo{
+    float: left;
+	margin-left:5rem;
+	background-color:#0099CC;
+	}
+
+}
+
+.at.ngp-form{
+	float:left;
+	margin-left:2.5rem;
+	margin-right:2.5rem;
+	
+}
+@media(max-width:400px){
+.header a.logo{
+	background-color:#0099CC;
+	}
+}
+.at.ngp-form{
+    float: none;
+    max-width: 500px;
+}
+}
+div.at{
+	font-family: 'Roboto Condensed', sans-serif;
+    max-width: 800px;
+}
+section.at-inner{
+    background: #FFFFFF !important;
+	border-radius: 7px !important;
+	padding:1rem;
+	font-size:120%;
+}
+.at header.at-title{
+	border:0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight:bold;
+	line-height:30px;
+	text-transform:uppercase;
+}
+header a.logo img {
+    max-width: 100%;
+    width: auto;
+	rgba(255, 255, 255, 0.53);
+}
+
+div.at .HeaderHtml {padding:0px !important;}
+.at-legend{
+	display:none;
+}
+div.at label{
+	text-transform:uppercase;
+}
+div.at .HeaderHtml, div.at .FooterHtml {
+    padding: 1.25rem;
+    margin: 0;
+}
+div.at form .label-amount>a{
+  background-color: #1155a0;
+  border-color: #1155a0;
+}
+div.at form .label-amount input[type="radio"]:checked+a {
+  background-color: #C70E1C;
+  border: 1px solid #C70E1C;
+}
+div.at form .label-amount:hover>a {
+  border-color: #1155a0;
+  background-color: #1155a0;
+  opacity:.8;
+}
+div.at form .label-amount input[required]{
+  background-color: #C70E1C;
+  border: 1px solid #C70E1C;
+}
+div.at .at-step.valid a:before,
+div.at .at-step.valid>*:before {
+  background-color: #1155a0;
+}
+div.at .at-step.active a:before,
+div.at .at-step.active.valid>*:before{
+  background-color: #C70E1C;
+}
+div.at-form-submit{
+	text-align:center;
+}
+div.at .btn-at-primary{
+    background-color: #c70e1c;
+	border-radius: 7px !important;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    float: none;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 100%;
+    min-width: 250px;
+    white-space: normal;
+}
+div.at .btn-at-primary:hover, 
+div.at .hover.btn-at-primary {
+  background-color: #C70E1C;
+  opacity:.8;
+}
+
+.at input[type="text"]:hover, .at input[type="password"]:hover, .at input[type="date"]:hover, 
+.at input[type="datetime"]:hover, .at input[type="datetime-local"]:hover, .at input[type="month"]:hover, 
+.at input[type="week"]:hover, .at input[type="email"]:hover, .at input[type="number"]:hover, 
+.at input[type="search"]:hover, .at input[type="tel"]:hover, .at input[type="time"]:hover, 
+.at input[type="url"]:hover, .at input[type="color"]:hover, .at textarea:hover,
+div.at select:hover{
+    background-color: #E8F0FF;
+}
+
+div.at .at-form-submit .btn-at-primary:hover, 
+div.at .at-form-submit .hover.btn-at-primary {
+    background-color: white;
+    opacity: 0.8;
+    color: #c70e1c;
+    border-color: #c70e1c;
+}.foot {clear:left;
+	width:100%; 
+	    padding-top: 4rem;}
+	body > div, body {
+    display: block !important;
+    background: url('https://secure.actblue.com/x/object/actblue-images/brandings/background_images/10087/original.jpg?1500582079')  no-repeat center center fixed; 
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/}
+	.at-paid-for-by {
+    border: 1px solid #FFFFF !important;
+    padding: 0 3px;
+	color:white !important;
+    margin-top: -1px;
+    display: inline-block;
+    font-size: 12px !important;
+}.header a.logo{
+    max-width: 100%;
+    width: 530px;   
+}
+.at.ngp-form{
+    max-width: 500px;
+}
+
+@media(min-width:768px){
+.header a.logo{
+    float: left;
+}
+.at.ngp-form{
+    float: left;
+}
+}
+@media(max-width:400px){
+.at.ngp-form{
+    float: none;
+    max-width: 400px;
+}
+.header a.logo{
+    float: left;
+	background-color:#0099CC;
+	}
+}@media only screen and (max-device-width:28.125em) { 
+body{background-color:#000 !Important;} 
+}
